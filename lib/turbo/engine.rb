@@ -8,7 +8,7 @@ module Turbo
     config.turbo = ActiveSupport::OrderedOptions.new
 
     initializer "turbo.assets" do
-      Rails.application.config.assets.precompile += %w( turbo )
+      # Rails.application.config.assets.precompile += %w( turbo )
     end
 
     initializer "turbo.helpers" do
